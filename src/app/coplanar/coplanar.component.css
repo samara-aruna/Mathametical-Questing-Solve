@@ -1,0 +1,75 @@
+h1
+{
+    text-align: center;
+    color:darkgreen;
+    font-size:50px;
+    font-weight:bold;
+    transition: transform 1s ease, box-shadow 1s ease;
+}
+h1:hover
+{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+img
+{
+    border-radius: 40%;
+    margin-left:7cm;
+    margin-top:2cm;
+    animation: popupAnimation 6s ease-in-out infinite;
+}
+@keyframes popupAnimation {
+    0%, 100% {
+        transform: scale(0.8);
+        box-shadow: none;
+    }
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+}
+h2
+{
+    color:darkgreen;
+    text-align: center;
+}
+table
+{
+    margin-left:0cm;
+    margin-top:0cm;
+    background-color:darkgray;
+    border-radius: 20px;
+    animation: popupAnimation2 10s ease-in-out infinite;
+    opacity: 0.8;
+}
+td
+{
+    padding:25px;
+}
+@keyframes popupAnimation2 {
+    0%, 100% {
+        transform: scale(0.9);
+        box-shadow: none;
+    }
+    50% {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+}
+button
+{
+    margin-left:11cm;
+}
+.re
+{
+    color:red;
+    font-size:30px;
+    font-weight:bold;
+}
+.ff
+{
+    color:blue;
+    font-weight:bold;
+    font-size:25px;
+}

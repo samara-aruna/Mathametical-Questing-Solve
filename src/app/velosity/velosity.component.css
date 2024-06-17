@@ -1,0 +1,86 @@
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    color:forestgreen;
+    font-weight:bold;
+}
+.heading
+{
+    background-color:cornsilk;  
+    margin-left: 1cm;
+    margin-right:1cm;
+    border-radius: 30px;
+    margin-top:1cm;
+    padding:5px;
+}
+p
+{
+  text-align:center;
+  font-size: 30px;
+  color:maroon;
+  font-weight:bold;
+  background-color:darkkhaki;
+  border-radius: 25px;
+  animation: popupAnimation 7s ease-in-out infinite;
+  padding:20px;
+
+}
+
+@keyframes popupAnimation {
+    0%, 100% {
+        transform: scale(0.9);
+        box-shadow: none;
+    }
+    50% {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+}
+table
+{
+    margin-left:4cm;
+    padding:0;
+    
+}
+img
+{
+    animation: popupAnimation 7s ease-in-out infinite;
+    border-radius: 30px;
+}
+.one
+{
+    margin-right:3cm;
+}
+.type
+{
+    font-size: 30px;
+    color:brown;
+    font-weight:bold;
+    text-align:center;
+    margin-left:2cm;
+
+}
+th
+{
+    color:cornflowerblue;
+    font-size: 35px;;
+}
+.banner
+{
+    margin-left: 1cm;
+    margin-right:1cm;
+    padding:0;
+}
+
+h6
+{
+    background-color:gray;
+    color:black;
+    text-align:center;
+    padding:10px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 1cm;
+    margin-right:1cm;
+}

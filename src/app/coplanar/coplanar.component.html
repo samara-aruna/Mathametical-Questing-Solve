@@ -1,0 +1,69 @@
+<h1><marquee> Coplanar Forces Online Calculator</marquee></h1>
+<br>
+
+
+<table>
+  <tbody>
+    <tr>
+      <td><h2>Enter Force Codrant Number for force one: </h2></td>
+      <td> <input type="number" name="codrant1" [(ngModel)]="codrant1"></td>
+    </tr>
+  <tr>
+    <td><h2>Enter value of first Force : </h2></td>
+    <td><input type="number" name="F1"[(ngModel)]="F1"></td>
+  </tr>
+  <tr>
+    <td><h2> Enter angle of first Force : </h2></td>
+    <td><input type="number" name="A1" [(ngModel)]="A1"></td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-primary" (click)="cal1()">Primary</button></td>
+    <td class="ff"> Answer : {{horizontal1}} , {{vartical1}}</td>
+  </tr>
+  <tr>
+    <td><h2>Enter Force Codrant Number for force two: </h2></td>
+    <td> <input type="number" name="codrant2" [(ngModel)]="codrant2"></td>
+  </tr>
+  
+  <tr>
+    <td><h2>Enter value of second Force : </h2></td>
+    <td><input type="number" name="F2" [(ngModel)]="F2"></td>
+  </tr>
+  <tr>
+    <td><h2> Enter angle of second Force : </h2></td>
+    <td><input type="number" name="A2" [(ngModel)]="A2"></td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-primary" (click)="cal2()">Primary</button></td>
+    <td class="ff"> Answer : {{horizontal2}} , {{vartical2}}</td>
+  </tr>
+
+  <tr>
+    <td><h2>Enter Force Codrant Number for force three: </h2></td>
+    <td> <input type="number" name="codrant3" [(ngModel)]="codrant3"></td>
+  </tr>
+
+  <tr>
+    <td><h2>Enter value of third Force : </h2></td>
+    <td><input type="number" name="F3"[(ngModel)]="F3"></td>  
+  </tr>
+  <tr>
+    <td><h2> Enter angle of third Force : </h2></td>
+    <td><input type="number" name="A3" [(ngModel)]="A3"></td>
+  </tr>
+  <tr>
+    <td><button type="button" class="btn btn-primary" (click)="cal3()">Primary</button></td>
+    <td class="ff"> Answer : {{horizontal3}} , {{vartical3}}</td>
+  </tr>
+
+
+  <tr>
+    <td><h2> Answer</h2></td>
+    <td class="re">{{result}}</td>
+  </tr>
+  <tr>
+    <td><button (click)="cal_total()" class="btn btn-success"> Success</button></td>
+  </tr>
+  </tbody>
+</table>
+
